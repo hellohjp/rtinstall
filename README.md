@@ -7,11 +7,11 @@ Ubuntu and Debian Seedbox Installation
 
 Download script
 
-	wget --no-check-certificate https://raw.githubusercontent.com/xjyxh1/rtinstall/master/rtinst.sh
+	wget --no-check-certificate https://raw.githubusercontent.com/hellohjp/rtinstall/master/rtinst.sh
 
 and then to run it:
 
-	sudo bash rtinst.sh
+	sudo bash rtinst.sh -d -t
 
 It takes about 10 minutes to run, depending on your server setup. After you have run the script and everything is working, I suggest a reboot, the script does not automate this reboot, you need to do it manually using the reboot command.
 
